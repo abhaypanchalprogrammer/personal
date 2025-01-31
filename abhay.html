@@ -1,173 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ABHAY</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mq.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mq.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <nav id="desktop-nav">
-        <div class="navbar">
-            <div class="logo">ABHAY</div>
-        </div>
-        <div class="nav-links link">
-            <a href="#about">ABOUT</a>
-            <a href="#experience">EXPERIENCE</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="#contact">CONTACT</a>
-        </div>
+      <div class="navbar">
+        <div class="logo">ABHAY</div>
+      </div>
+      <div class="nav-links link">
+        <a href="#about">ABOUT</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
     </nav>
     <nav id="hamburger">
-        <div class="logo"> ABHAY PANCHAL </div>
-        <div class="hm">
-            <div class="hi" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menulinks">
-                <ul>
-                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                    <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
-                </ul>
-            </div>
+      <div class="logo">ABHAY PANCHAL</div>
+      <div class="hm">
+        <div class="hi" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+        <div class="menulinks">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <section id="profile">
-        <div class="main">
-            <div class="child">
-                <div class="section-pic-container">
-                    <img class="img" src="assets/pic.jpg">
-                </div>
-                <div class="txt">
-                    <p>Hello There, I'am</p>
-                    <h1>Abhay Panchal</h1>
-                    <h2>I am Front-end Developer and</h2>
-                    <h2>Dance Choreographer</h2>
-                    <br>
-                    <button onclick="nextPage()" class="btn btn1">CV</button>
-                </div>
-            </div>
+      <div class="main">
+        <div class="child">
+          <div class="section-pic-container">
+            <img class="img" src="assets/pic.jpg" />
+          </div>
+          <div class="txt">
+            <p>Hello There, I'am</p>
+            <h1>Abhay Panchal</h1>
+            <h2>I am Front-end Developer and</h2>
+            <h2>Dance Choreographer</h2>
+            <br />
+            <button onclick="nextPage()" class="btn btn1">CV</button>
+          </div>
         </div>
+      </div>
     </section>
     <section id="about">
-        <div class="main2 about-containers">
-            <div class="h1">
-                <h1 class="title">ABOUT ME</h1>
-            </div>
-            <div class="section-container">
-                <div class="img">
-                    <div class="details">
-
-                        <div class="experience">
-                            <h1>EXPERIENCE</h1>
-                            <!-- <p>FRESHER</p> -->
-                            <P>FRONT-END DEVELOPER</P>
-                            <P>AND CHOREOGRAPHER</P>
-                        </div>
-                        <div class="education">
-                            <h1>EDUCATION</h1>
-                            <!-- <P>ITI IN </P> -->
-                            <P>COMPUTER OPERATOR AND</P>
-                            <P>PROGRAMMING ASSISTANT</P>
-                        </div>
-                        <div class="dance1">
-                            <h1>DANCE</h1>
-                            <p>HIP-HOP, LYRICAL, POPPING</p>
-                            <P>INTERMEDIATE CHOREOGRAPHER</P>
-                            <P>ADVANCE DANCE ACADEMY</P>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+      <div class="main2 about-containers">
+        <div class="h1">
+          <h1 class="title">ABOUT ME</h1>
         </div>
+        <div class="section-container">
+          <div class="img">
+            <div class="details">
+              <div class="experience">
+                <h1>EXPERIENCE</h1>
+                <!-- <p>FRESHER</p> -->
+                <p>FRONT-END DEVELOPER</p>
+                <p>AND CHOREOGRAPHER</p>
+              </div>
+              <div class="education">
+                <h1>EDUCATION</h1>
+                <!-- <P>ITI IN </P> -->
+                <p>COMPUTER OPERATOR AND</p>
+                <p>PROGRAMMING ASSISTANT</p>
+              </div>
+              <div class="dance1">
+                <h1>DANCE</h1>
+                <p>HIP-HOP, LYRICAL, POPPING</p>
+                <p>INTERMEDIATE CHOREOGRAPHER</p>
+                <p>ADVANCE DANCE ACADEMY</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="experience">
-        <div class="experience-details-container">
-            <div class="third about-containers">
-                <p>HERE YOU CAN SEE</p>
-                <h1 class="title">MY EXPERIENCE</h1>
-                <div class="box">
-                    <article>
-                        <div class="hii">
-                            <h2>HTML</h2>
-                            <P>EXPERIENCED</P>
-                        </div>
-                    </article>
-                    <article>
-                        <div class="hii">
-                            <h2>CSS</h2>
-                            <P>INTERMEDIATE</P>
-                        </div>
-                    </article>
-                    <article>
-                        <div class="hii">
-                            <h2>JAVASCRIPT</h2>
-                            <P>LEARNER</P>
-                        </div>
-                    </article>
-                    <article>
-                        <div class="hii hi1">
-                            <h2>CHOREOGRAPHY</h2>
-                            <P>INTERMEDIATE</P>
-                        </div>
-                    </article>
-
-                </div>
-            </div>
+      <div class="experience-details-container">
+        <div class="third about-containers">
+          <p>HERE YOU CAN SEE</p>
+          <h1 class="title">MY EXPERIENCE</h1>
+          <div class="box">
+            <article>
+              <div class="hii">
+                <h2>HTML</h2>
+                <p>EXPERIENCED</p>
+              </div>
+            </article>
+            <article>
+              <div class="hii">
+                <h2>CSS</h2>
+                <p>INTERMEDIATE</p>
+              </div>
+            </article>
+            <article>
+              <div class="hii">
+                <h2>JAVASCRIPT</h2>
+                <p>LEARNER</p>
+              </div>
+            </article>
+            <article>
+              <div class="hii hi1">
+                <h2>CHOREOGRAPHY</h2>
+                <p>INTERMEDIATE</p>
+              </div>
+            </article>
+          </div>
         </div>
+      </div>
     </section>
     <section id="projects">
-
-        <div class="fourth about-containers">
-            <p>HERE YOU CAN CHECK OUT</p>
-            <H1 class="title">PROJECTS</H1>
-            <div class="project">
-                <div class="one onee">
-                    <img src="assets/ama.png">
-                    <h1>AMAZAON ClONE</h1>
-                    <br>
-                    <a href="https://abhaypanchalprogrammer.github.io/portfolio/Amazon.html">CLICK ME</a>
-                </div>
-                <div class="three onee">
-                    <img src="assets/calcu.png">
-                    <h1>CALCULATOR</h1>
-                    <br>
-                    <a href="https://abhaypanchalprogrammer.github.io/clac/calc.html">CLICK ME</a>
-                </div>
-
-            </div>
+      <div class="fourth about-containers">
+        <p>HERE YOU CAN CHECK OUT</p>
+        <h1 class="title">PROJECTS</h1>
+        <div class="project">
+          <div class="one onee">
+            <img src="assets/ama.png" />
+            <h1>AMAZAON ClONE</h1>
+            <br />
+            <a
+              href="https://abhaypanchalprogrammer.github.io/portfolio/Amazon.html"
+              >CLICK ME</a
+            >
+          </div>
+          <div class="two onee">
+            <img src="assets/gallery.jpg" />
+            <h1>TIC-TAC-TOE</h1>
+            <br />
+            <a href="https://abhaypanchalprogrammer.github.io/tic-tac-toe/"
+              >CLICK ME</a
+            >
+          </div>
+          <div class="three onee">
+            <img src="assets/calcu.png" />
+            <h1>CALCULATOR</h1>
+            <br />
+            <a href="https://abhaypanchalprogrammer.github.io/clac/calc.html"
+              >CLICK ME</a
+            >
+          </div>
+          <div class="four onee">
+            <img src="assets/scramble.png" />
+            <h1>CALCULATOR</h1>
+            <br />
+            <a href="https://abhaypanchalprogrammer.github.io/word-scramble/"
+              >CLICK ME</a
+            >
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="contact">
-
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img src="assets/email (1).png" alt="Email icon" class="icon contact-icon email-icon" />
-                <p><a href="abhaypanchal1414@gmail.com">abhaypanchal1414@gmail.com</a></p>
-            </div>
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="assets/email (1).png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="abhaypanchal1414@gmail.com">abhaypanchal1414@gmail.com</a>
+          </p>
         </div>
+      </div>
     </section>
 
     <footer class="foot">
-        <h2>THANK YOU</h2>
-        <p>Have a Nice Day</p>
+      <h2>THANK YOU</h2>
+      <p>Have a Nice Day</p>
     </footer>
     <script src="script.js"></script>
     <script src="new.js"></script>
-
-</body>
-
+  </body>
 </html>
