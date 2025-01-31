@@ -10,5 +10,5 @@ function nextPagee() {
   );
 }
 function nextPage() {
-  window.open("/assets/CV.pdf");
+  window.open("https://abhaypanchalprogrammer.github.io/Personal-Portfolio/assets/CV-FINAL.pdf");
 }
